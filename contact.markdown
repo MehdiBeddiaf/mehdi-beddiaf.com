@@ -2,5 +2,6 @@
 title: Contact
 ---
 
-I live in a small hut in the mountains of Kumano Kodō on Kii Hantō and would not
-like to be contacted.
+Shoot me an email at mehdi.beddiaf@gmail.com
+
+You can find me on [Linkedin](https://www.linkedin.com/in/mehdibeddiaf/) or [Twitter](https://twitter.com/ninjarabic)

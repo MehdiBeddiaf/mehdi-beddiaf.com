@@ -1,0 +1,5 @@
+---
+title: Why FP? (and why Purescript?)
+---
+
+Purescript <3.

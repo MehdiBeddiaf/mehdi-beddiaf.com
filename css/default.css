@@ -10,11 +10,6 @@ body {
   padding: 30px 0 0 0;
 }
 
-a{
-  color: rgb(109, 145, 225);
-  text-decoration: none;
-}
-
 header {
   margin-bottom: 30px;
   padding: 2.5em 0px 12px 0px;
@@ -51,13 +46,14 @@ header nav a {
   text-transform: uppercase;
 }
 
-.cool-link {
+main a {
   display: inline-block;
   color: #2D4262;
+  font-weight: bold;
   text-decoration: none;
 }
 
-.cool-link::after {
+main a::after {
   content: '';
   display: block;
   width: 0;
@@ -66,7 +62,7 @@ header nav a {
   transition: width .3s;
 }
 
-.cool-link:hover::after {
+main a:hover::after {
   width: 100%;
   transition: width .3s;
 }
@@ -125,7 +121,6 @@ main p + p {
 	padding: 4px;
 	outline: 0;
 	color: #FFD64D;
-  font-weight: bold;
 	transition-duration: 0.25s;
 	transition-property: transform;
 	transform: scale(1) rotate(0);
