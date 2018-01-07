@@ -13,8 +13,10 @@ new to learn, use and above all enjoy on a daily basis.
 Seeing more and more tweets, blog posts and conferences about functional programming, this paradigm caught my attention.
 
 Hence, the purpose of this blog is to keep a record of what I've learned and I'm still learning about my journey into FP
-and Purescript.
+and [Purescript](http://www.purescript.org/).
 
 Oh, by the way, I like dinosaurs, Formula 1, powerlifting and traveling.
 
 Wanna chat? You can e-mail me at mehdi.beddiaf@gmail.com.
+
+pssst... you can find my resume [here](./resume.pdf)

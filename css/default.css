@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Halant');
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
   background-color: #2D4262;
   color: #2D4262;
@@ -101,9 +107,11 @@ main div.info {
 }
 
 main p, main h1, main h2, main h3, main h4, main h5, main ol, main ul, main blockquote {
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
   margin: auto;
   line-height: 1.75em;
+  word-wrap: break-word;
 }
 
 main h1, main h2, main h3, main h4, main h5, main ol, main ul{
