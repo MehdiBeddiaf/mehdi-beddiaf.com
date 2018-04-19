@@ -4,16 +4,16 @@ title: About
 
 Hi there, I'm Mehdi Beddiaf a.k.a. Ninjarab.
 
-I'm a software engineer and over the past couple of years I was used to write some JavaScript code, more precisely some
-React.
+Learning functional programming is a long journey, I started with React and I
+carried on with [Elixir](https://elixir-lang.org/). Then I decided to step up my
+game by learning [PureScript](http://www.purescript.org/) and
+[Haskell](https://www.haskell.org/), [Stk](https://github.com/Ninjarab/stk)
+is one of my learning material among others making me appreciate every step
+along the way...
 
-As I hate staying in my zone of comfort and with a constant need of intellectual stimulation, I was looking for something
-new to learn, use and above all enjoy on a daily basis.
-
-Seeing more and more tweets, blog posts and conferences about functional programming, this paradigm caught my attention.
-
-Hence, the purpose of this blog is to keep a record of what I've learned and I'm still learning about my journey into FP
-and [Purescript](http://www.purescript.org/).
+Hence, the purpose of this blog is to keep a record of what I've learned and I'm
+still learning about my journey into FP and
+[PureScript](http://www.purescript.org/).
 
 Oh, by the way, I like dinosaurs, Formula 1, powerlifting and traveling.
 

@@ -52,14 +52,14 @@ header nav a {
   text-transform: uppercase;
 }
 
-main a {
+main a:not(.sourceLine) {
   display: inline-block;
   color: #2D4262;
   font-weight: bold;
   text-decoration: none;
 }
 
-main a::after {
+main a:not(.sourceLine)::after {
   content: '';
   display: block;
   width: 0;
@@ -68,7 +68,7 @@ main a::after {
   transition: width .3s;
 }
 
-main a:hover::after {
+main a:not(.sourceLine):hover::after {
   width: 100%;
   transition: width .3s;
 }
@@ -132,6 +132,9 @@ main p + p {
 	transition-duration: 0.25s;
 	transition-property: transform;
 	transform: scale(1) rotate(0);
+  -webkit-transition-duration: 0.25s;
+	-webkit-transition-property: transform;
+  -webkit-transform: scale(1) rotate(0);
 }
 
 .fancy-link:hover {
@@ -140,10 +143,12 @@ main p + p {
 	text-decoration: none;
 	border-radius: 4px;
 	transform: scale(1.05) rotate(-1deg);
+  -webkit-transform: scale(1.05) rotate(-1deg);
 }
 
 .fancy-link:nth-child(2n):hover {
   transform: scale(1.05) rotate(1deg);
+  -webkit-transform: scale(1.05) rotate(1deg);
 }
 
 main blockquote {

@@ -1,0 +1,15 @@
+---
+title: PureScript 101
+---
+
+PureScript blog posts coming soon!
+
+```haskell
+import Prelude
+import Control.Monad.Eff.Console (log)
+
+tease :: String -> String
+tease something = something <> " coming soon!"
+
+main = log (tease "PureScript blog posts")
+```
